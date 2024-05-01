@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-500">
+
+
+
+
+
+
+    <form action="hotel-page-booking.php" method="get">
+        <div class="cart-contain rounded-3xl flex-col">
+
+
+            <div class="booking-contain rounded-3xl p-4 text-center">
+                <h1 class="text-5xl font-bold pr-8">£16</h1>
+
+                <h2 class="text-4xl font-bold">Adult<br>
+                    <p class="text-sm">age 16+</p>
+                </h2>
+
+                <label class="text-2xl font-bold pl-16" for="adult">Tickets Required<br>
+                    <p class="text-sm">Qty 1 - 10:</p>
+                </label>
+                <input class="ml-10 pl-5" type="number" id="adult" name="adult_ticket" min="1" max="10">
+
+            </div>
+            <div class="booking-contain rounded-3xl p-4 text-center">
+                <h1 class="text-5xl font-bold pr-8">£8</h1>
+
+                <h2 class="text-4xl font-bold">Child<br>
+                    <p class="text-sm">age 3-16</p>
+                    <p class="text-xs">under 3's go free!</p>
+                </h2>
+
+                <label class="text-2xl font-bold pl-16" for="child">Tickets Required<br>
+                    <p class="text-sm">Qty 1 - 5:</p>
+                </label>
+                <input class="ml-10 pl-5" type="number" id="child" name="kid_ticket" min="1" max="5">
+
+            </div>
+            <div class="booking-contain rounded-3xl p-12 text-center">
+                <h1 class="text-5xl font-bold pr-8">£12</h1>
+                <h2 class="text-4xl font-bold">OAP / Student</h2>
+
+                <label class="text-2xl font-bold pl-16" for="os">Tickets Required<br>
+                    <p class="text-sm">Qty 1 - 10:</p>
+                </label>
+                <input class="ml-10 pl-5" type="number" id="os" name="os_ticket" min="1" max="10">
+
+            </div>
+            <div class="booking-contain rounded-3xl p-4 text-center">
+                <h1 class="text-5xl font-bold pr-8">£40</h1>
+
+                <h2 class="text-4xl font-bold">Family<br>
+                    <p class="text-sm">2 Adult's</p>
+                    <p class="text-sm">2 Children</p>
+                </h2>
+
+                <label class="text-2xl font-bold pl-16" for="family">Tickets Required<br>
+                    <p class="text-sm">Qty 1 - 2:</p>
+                </label>
+                <input class="ml-10 pl-5" type="number" id="family" name="family_ticket" value="fam_tick" min="1" max="2">
+
+            </div>
+        </div>
+        <div class="booking-contain rounded-3xl p-4 text-center">
+            <h2 class="text-4xl font-bold w-1/2 hover:underline"><a href="hotel-page-booking.php">Book Hotel?</a></h2>
+            <div class="vl"></div>
+            <h2 class="text-3xl font-bold w-1/2 "><input type="submit"><br>CHECK OUT</h2>
+        </div>
+    </form>
+
+
+
+
+
+
+</body>
+</html>

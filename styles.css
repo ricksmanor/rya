@@ -1,0 +1,263 @@
+/* #a8e6cf • #dcedc1 • #ffd3b6 • #ffaaa5 • #ff8b94 */
+/* #144D7A #14EAAE #FA4980 */
+
+body {
+    background-color: skyblue;
+    background: linear-gradient(#144D7A, #14EAAE);
+}
+
+@font-face {
+    font-family: Joti;
+    src: url(fonts/JotiOne-Regular.ttf);
+}
+
+/********************************************************************/
+section {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    min-height: 100vh;
+    justify-content: space-around;
+}
+
+/********************************************************************/
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    /* background-color: #144D7A ; */
+}
+
+/* nav> a{
+    font-size: xx-large;
+    background-color: antiquewhite;
+    padding: 5px 30px;
+    border-radius: 40px;
+}
+nav> img{
+    background-color: antiquewhite;
+    padding: 5px;
+    border-radius: 40px;
+    height: 60px;
+    width: 150px;
+    object-fit: cover;
+} */
+.nav-contain {
+    /* background-color: antiquewhite; */
+    border-radius: 40px;
+    object-fit: cover;
+    font-size: xx-large;
+    color: whitesmoke;
+    padding: 5px 30px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+}
+.nav-contain-x {
+    /* background-color: antiquewhite; */
+    border-radius: 40px;
+    color: whitesmoke;
+    padding: 5px 30px;
+    border-radius: 40px;
+    flex-direction: row;
+    /* justify-content: stretch; */
+    align-items: center;
+}
+
+/********************************************************************/
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    /* background-color: #FA4980 ; */
+}
+
+.footer-contain {
+    /* background-color: antiquewhite; */
+    border-radius: 40px;
+    object-fit: cover;
+    font-size: x-large;
+    color: whitesmoke;
+    padding: 5px 100px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+}
+
+/********************************************************************/
+.image-contain {
+    width: 100%;
+    height: 500px;
+}
+
+/********************************************************************/
+.animal-contain {
+    margin: 20px 40px;
+    height: 400px;
+    background-color: blanchedalmond;
+
+    display: flex;
+    align-items: center;
+}
+
+.attractions-contain {
+    margin: 20px 40px;
+    height: 350px;
+    background-color: blanchedalmond;
+
+    display: flex;
+    align-items: center;
+}
+
+.facilities-contain {
+    margin: 20px 40px;
+    height: 420px;
+    background-color: blanchedalmond;
+
+    display: flex;
+    align-items: center;
+}
+
+.edu-column {
+    float: left;
+    min-width: 20%;
+    height: 100vh;
+    padding: 5px;
+}
+
+.glass-box {
+    background: rgba(255, 255, 255, 0);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+}
+
+
+
+.checkbox:active~.slider::before {
+    transform: translate(0);
+}
+
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+}
+
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #888;
+    border: black 2px solid;
+
+}
+
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+input:checked+.slider {
+    background-color: white;
+}
+
+input:checked+.slider+p
+ {
+    transform: scale(1.2);
+    font-size: xx-large !important;
+}
+
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    text-align: center;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.contact-form {
+    border-radius: 25px;
+    background-color: #ccc;
+    padding: 20px;
+}
+
+.booking-contain {
+    margin: 20px 40px;
+    height: 200px;
+    background-color: blanchedalmond;
+
+    display: flex;
+    align-items: center;
+}
+
+.cart-contain {
+    margin: 20px 40px;
+    height: 920px;
+    background-color: blanchedalmond;
+
+    display: flex;
+    align-items: center;
+}
+
+.hotel-contain {
+    margin: 20px 40px;
+    height: 320px;
+    background-color: blanchedalmond;
+
+    display: flex;
+    align-items: center;
+}
+.checkout-contain {
+    margin: 20px 40px;
+    height: 100px;
+    background-color: blanchedalmond;
+
+    display: flex;
+    align-items: center;
+}
+
+.vl {
+    border-left: 4px solid black;
+    height: 200px;
+}
+
