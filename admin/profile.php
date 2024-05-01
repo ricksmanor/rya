@@ -6,10 +6,10 @@ if (!isset($_SESSION['loggedin'])) {
 	header('Location: index.html');
 	exit;
 }
-$DATABASE_HOST = 'localhost';
-$DATABASE_USER = 'root';
-$DATABASE_PASS = '';
-$DATABASE_NAME = 'rza';
+$DATABASE_HOST = 'http://sql8.freesqldatabase.com/';
+$DATABASE_USER = 'sql8703310';
+$DATABASE_PASS = 'Y365STTgIe';
+$DATABASE_NAME = 'sql8703310';
 $con = mysqli_connect($DATABASE_HOST, $DATABASE_USER, $DATABASE_PASS, $DATABASE_NAME);
 if (mysqli_connect_errno()) {
 	exit('Failed to connect to MySQL: ' . mysqli_connect_error());

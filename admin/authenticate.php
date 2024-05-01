@@ -1,10 +1,10 @@
 <?php
 session_start();
 
-$DATABASE_HOST = 'localhost';
-$DATABASE_USER = 'root';
-$DATABASE_PASS = '';
-$DATABASE_NAME = 'rza';
+$DATABASE_HOST = 'http://sql8.freesqldatabase.com/';
+$DATABASE_USER = 'sql8703310';
+$DATABASE_PASS = 'Y365STTgIe';
+$DATABASE_NAME = 'sql8703310';
 
 
 $con = mysqli_connect($DATABASE_HOST, $DATABASE_USER, $DATABASE_PASS, $DATABASE_NAME);
