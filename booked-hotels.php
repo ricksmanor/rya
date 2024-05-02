@@ -16,7 +16,7 @@ echo $vip_family_nights_hotel = $_POST['vip_family_nights_hotel'];
 // echo $family_room_bundle = $_POST['family_room_bundle'];
 
 
-$conn = new mysqli('http://sql8.freesqldatabase.com/','sql8703310','Y365STTgIe','sql8703310');
+$conn = new mysqli('localhost','root','','rza');
 if($conn->connect_error){
     die("Connection Failed : ".$conn->connect_error);
 } else {

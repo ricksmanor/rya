@@ -1,10 +1,10 @@
 <?php
 
 
-$servername = "http://sql8.freesqldatabase.com/";
-$username = "sql8703310";
-$password = "Y365STTgIe";
-$dbname = "sql8703310";
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "rza";
 
 
 

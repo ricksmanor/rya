@@ -7,7 +7,7 @@ echo $lastname = $_POST['lastname'];
 echo $email = $_POST['email'];
 echo $subject = $_POST['subject'];
 
-$conn = new mysqli('http://sql8.freesqldatabase.com/','sql8703310','Y365STTgIe','sql8703310');
+$conn = new mysqli('localhost','root','','rza');
 if($conn->connect_error){
     die("Connection Failed : ".$conn->connect_error);
 } else {
